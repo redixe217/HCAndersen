@@ -1,0 +1,32 @@
+[
+  {
+    "land": "mexico",
+    "tekst": "tekst omkring mexico",
+    "billede": "mexico"
+  },
+  {
+    "land": "costarica",
+    "tekst": "tekst omkring costa rica",
+    "billede": "costarica"
+  },
+  {
+    "land": "nicaragua",
+    "tekst": "tekst omkring nicaragua",
+    "billede": "nicaragua"
+  },
+  {
+    "land": "cuba",
+    "tekst": "tekst omkring cuba",
+    "billede": "cuba"
+  },
+  {
+    "land": "galapagos",
+    "tekst": "tekst omkring galapagos",
+    "billede": "galapagos"
+  },
+  {
+    "land": "equador",
+    "tekst": "tekst omkring equador",
+    "billede": "equador"
+  }
+]
