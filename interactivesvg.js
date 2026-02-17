@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", function () {
   runProgram();
 });
 
+console.log("test");
+
 // nedstående array (const) er sat ind efter jeg har lavet alt der der farve-knap-skift. infoen er fra museum.json filen
 const prikker = [
 {
