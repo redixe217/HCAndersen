@@ -4,34 +4,34 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // nedstående array (const) er sat ind efter jeg har lavet alt der der farve-knap-skift. infoen er fra museum.json filen
 const prikker = [
-  {
+{
     land: "magasin",
-    tekst: "Magasin",
+    tekst: "Her boede en ung og fattig Andersen i et lille kælderværelse. Han var fuld af drømme om storbyen – præcis som mange unge, der flytter til København i dag.",
     billede: "magasin",
   },
   {
     land: "dangleterre",
-    tekst: "Hotel D'angleterre",
+    tekst: "Fra kælderen til de bonede gulve! Som succesfuld forfatter flyttede Andersen ind på Hotel D’Angleterre",
     billede: "dangleterre",
   },
   {
     land: "assistens",
-    tekst: "Assistens Kirkegård",
+    tekst: "På Assistens Kirkegård fandt han sit sidste hvilested. I dag er det en smuk park, hvor familier går tur midt i historiens vingesus.",
     billede: "gravsted",
   },
   {
     land: "nyhavn",
-    tekst: "Nyhavn",
+    tekst: "I Nyhavn 20 startede magien. Her udgav han sine første eventyr",
     billede: "nyhavn",
   },
   {
     land: "havfrue",
-    tekst: "Den Lille Havfrue",
+    tekst: "Hun er byens vartegn og et symbol på de store drømme. Det er det perfekte sted til en familie-selfie.",
     billede: "denlillehavfrue",
   },
   {
     land: "tivoli",
-    tekst: "Tivoli",
+    tekst: "Den magiske have inspirerede Andersen til eventyret om Nattergalen. Her lever eventyret stadig – midt i vores egen by.",
     billede: "tivoli",
   },
 ];
