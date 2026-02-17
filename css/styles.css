@@ -64,27 +64,31 @@ p {
   margin: 0 auto;
 }
 
-Video {
+/* ---------- VIDEO (YouTube iframes) ---------- */
+iframe {
   margin: 0 auto;
   display: block;
-  padding: 20px;
+  width: 100%;
+  padding: 20px; /* behold din padding */
+  border: 0;
+  outline: 0;
+  background: transparent;
 }
 
-@media (min-width: 921px) {
-  #bigvideo {
-    max-width: 1260px;
-  }
+#bigvideo {
+  width: 100%;
+  max-width: 1260px;
+  aspect-ratio: 16 / 9;
+}
 
-  #smallvideo {
-    max-width: 960px;
-  }
+#smallvideo {
+  width: 100%;
+  max-width: 960px;
+  aspect-ratio: 1 / 1; /* 1:1 */
 }
 
 @media (max-width: 920px) {
-  #bigvideo {
-    max-width: 360px;
-  }
-
+  #bigvideo,
   #smallvideo {
     max-width: 360px;
   }
